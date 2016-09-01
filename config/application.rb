@@ -13,5 +13,12 @@ module AlexsDinner
     # -- all .rb files in that directory are automatically loaded.
     config.paths.add File.join('app', 'api'), glob: File.join('**', '*.rb')
     config.autoload_paths += Dir[Rails.root.join('app', 'api', '*')]
+
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', headers: :any, methods: [:get, :post, :options]
+      end
+    end
   end
 end
