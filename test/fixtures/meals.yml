@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  food: MyText
-  date_of: 2016-08-31
+# one:
+#   food: MyText
+#   date_of: 2016-08-31
 
-two:
-  food: MyText
-  date_of: 2016-08-31
+# two:
+#   food: MyText
+#   date_of: 2016-08-31
