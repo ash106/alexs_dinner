@@ -1,24 +1,15 @@
-# README
+# Alex's Dinner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Code Climate](https://codeclimate.com/github/ash106/alexs_dinner/badges/gpa.svg)](https://codeclimate.com/github/ash106/alexs_dinner)
 
-Things you may want to cover:
+[Alex's Dinner](https://alexsdinner.herokuapp.com/) is a basic CRUD app and API which serves data for the [What Did Alex Eat Today?](https://github.com/ash106/what_did_alex_eat_today) project.
 
-* Ruby version
+Built using:
 
-* System dependencies
+- Rails for the CRUD app
+- Postgres as the database
+- Heroku is hosting the app at alexsdinner.herokuapp.com
+- Grape for the API endpoints
+- Rspec for tests
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+These tools just happen to be similar to the stack used at Unsplash. What are the chances?
