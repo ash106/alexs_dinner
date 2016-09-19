@@ -8,7 +8,7 @@ Built using:
 
 - Rails for the CRUD app
 - Postgres as the database
-- Heroku is hosting the app at alexsdinner.herokuapp.com
+- Heroku is hosting the app at [alexsdinner.herokuapp.com](https://alexsdinner.herokuapp.com/)
 - Grape for the API endpoints
 - Rspec for tests
 
