@@ -6,10 +6,10 @@
 
 Built using:
 
-- Rails for the CRUD app
-- Postgres as the database
-- Heroku is hosting the app at [alexsdinner.herokuapp.com](https://alexsdinner.herokuapp.com/)
-- Grape for the API endpoints
-- Rspec for tests
+- **Rails** for the CRUD app
+- **Postgres** as the database
+- **Heroku** is hosting the app at [alexsdinner.herokuapp.com](https://alexsdinner.herokuapp.com/)
+- **Grape** for the API endpoints
+- **Rspec** for tests
 
 These tools just happen to be similar to the stack used at Unsplash. What are the chances?
