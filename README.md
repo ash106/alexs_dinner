@@ -14,9 +14,13 @@ Built using:
 
 These tools just happen to be similar to the stack used at Unsplash. What are the chances?
 
-You can mess around with the data by visiting the [homepage](https://alexsdinner.herokuapp.com/). Try adding a new meal for today or editing an already existing meal.
+You can mess around with the data by visiting the [homepage](https://alexsdinner.herokuapp.com/). Try adding a new meal for today or editing an already existing meal, then using the links below to interact with the API.
 
-The API documentation can be viewed [here](http://alexsdinner.herokuapp.com/api/swagger). The actual API endpoints are available at [today](https://alexsdinner.herokuapp.com/api/v1/dinner/today) and [recent](https://alexsdinner.herokuapp.com/api/v1/dinner/recent). The actual API ruby code is located [here](app/api/dinner/api.rb) or below.
+Useful links:
+
+- [API documentation](http://alexsdinner.herokuapp.com/api/swagger)
+- API endpoints: [today](https://alexsdinner.herokuapp.com/api/v1/dinner/today), [recent](https://alexsdinner.herokuapp.com/api/v1/dinner/recent)
+- [API ruby code](app/api/dinner/api.rb) (also below)
 
 ```ruby
 module Dinner
