@@ -14,7 +14,7 @@ Built using:
 
 These tools just happen to be similar to the stack used at Unsplash. What are the chances?
 
-You can mess around with the data by visiting the [homepage](https://alexsdinner.herokuapp.com/). Try adding a new meal for today or editing an already existing meal, then using the links below to interact with the API.
+You can mess around with the data by visiting the [homepage](https://alexsdinner.herokuapp.com/). Try adding a new meal for today or editing an already existing meal, then use the links below to interact with the API.
 
 Useful links:
 
