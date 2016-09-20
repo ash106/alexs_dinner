@@ -9,7 +9,7 @@ RSpec.describe Dinner::API do
     end
 
     it 'returns an array containing one meal if there is a meal for today' do
-      meal = Meal.create(food: "Pizza", date_of: Date.today)
+      meal = Meal.create(food: "Pizza", date_of: Date.current)
       get '/api/v1/dinner/today.json'
       expect(response.status).to eq(200)
       response_body = JSON.parse(response.body)
@@ -21,7 +21,7 @@ RSpec.describe Dinner::API do
   context 'GET /api/v1/dinner/recent.json' do
     it 'returns up to five most recent meals in reverse chronological order' do
       meal_yesterday = Meal.create(food: "Pizza", date_of: Date.yesterday)
-      meal_today = Meal.create(food: "Corndogs", date_of: Date.today)
+      meal_today = Meal.create(food: "Corndogs", date_of: Date.current)
       get '/api/v1/dinner/recent.json'
       expect(response.status).to eq(200)
       response_body = JSON.parse(response.body)
@@ -32,7 +32,7 @@ RSpec.describe Dinner::API do
 
     it 'accepts a limit param which limits the number of meals returned' do
       meal_yesterday = Meal.create(food: "Pizza", date_of: Date.yesterday)
-      meal_today = Meal.create(food: "Corndogs", date_of: Date.today)
+      meal_today = Meal.create(food: "Corndogs", date_of: Date.current)
       get '/api/v1/dinner/recent.json?limit=1'
       expect(response.status).to eq(200)
       response_body = JSON.parse(response.body)

@@ -8,7 +8,7 @@ module Dinner
     namespace :dinner, desc: "Info about recent dinners" do
       desc "Return today's meal."
       get :today do
-        Meal.where(date_of: Date.today)
+        Meal.where(date_of: Date.current)
       end
 
       desc "Return recent meals."
